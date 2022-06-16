@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {                   /*since we changed the element from div to nav in html needed to fix this path as well*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {                /*since we changed the element from div to nav in html needed to fix this path as well*/
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {             /*since we changed the element from div to nav in html needed to fix this path as well*/
     display: inline-block;
     margin-left: 25px;
 }
